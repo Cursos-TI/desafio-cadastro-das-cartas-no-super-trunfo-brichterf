@@ -34,9 +34,10 @@ int main(){
     scanf("%f", &pib1);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosturismo1);
+    printf("\n");
 
     // Obtem as informaçoes da carta 2:
-    printf("CARTA 1\n");
+    printf("CARTA 2\n");
     printf("Estado: ");
     scanf("%s", &estado2);
     printf("Código: ");
@@ -51,5 +52,7 @@ int main(){
     scanf("%f", &pib2);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosturismo2);
+    printf("\n");
+
     return 0;
 }
